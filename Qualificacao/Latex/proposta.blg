@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: proposta.aux
+The style file: apalike.bst
+Database file #1: referencias.bib
+Warning--string name "jcs" is undefined
+--line 70 of file referencias.bib
+Too many commas in name 1 of "Witten, I. H. e Frank, Eibe e Hall, Mark A." for entry Witten
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Witten, I. H. e Frank, Eibe e Hall, Mark A." for entry Witten
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Yi, J. e Nasukawa, T. e Bunescu, R. e Niblack, W." for entry SA
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Yi, J. e Nasukawa, T. e Bunescu, R. e Niblack, W." for entry SA
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Yi, J. e Nasukawa, T. e Bunescu, R. e Niblack, W." for entry SA
+while executing---line 1023 of file apalike.bst
+Too many commas in name 1 of "Yi, J. e Nasukawa, T. e Bunescu, R. e Niblack, W." for entry SA
+while executing---line 1023 of file apalike.bst
+Warning--empty journal in jbhx
+Too many commas in name 1 of "Witten, I. H. e Frank, Eibe e Hall, Mark A." for entry Witten
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Yi, J. e Nasukawa, T. e Bunescu, R. e Niblack, W." for entry SA
+while executing---line 1098 of file apalike.bst
+Too many commas in name 1 of "Yi, J. e Nasukawa, T. e Bunescu, R. e Niblack, W." for entry SA
+while executing---line 1098 of file apalike.bst
+You've used 9 entries,
+            1935 wiz_defined-function locations,
+            524 strings with 5233 characters,
+and the built_in function-call counts, 2925 in all, are:
+= -- 288
+> -- 63
+< -- 10
++ -- 21
+- -- 18
+* -- 195
+:= -- 515
+add.period$ -- 27
+call.type$ -- 9
+change.case$ -- 53
+chr.to.int$ -- 8
+cite$ -- 10
+duplicate$ -- 145
+empty$ -- 242
+format.name$ -- 27
+if$ -- 589
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 9
+newline$ -- 48
+num.names$ -- 27
+pop$ -- 57
+preamble$ -- 1
+purify$ -- 54
+quote$ -- 0
+skip$ -- 107
+stack$ -- 0
+substring$ -- 189
+swap$ -- 19
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 1
+while$ -- 23
+width$ -- 0
+write$ -- 115
+(There were 9 error messages)

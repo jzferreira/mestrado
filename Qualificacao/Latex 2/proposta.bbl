@@ -1,0 +1,51 @@
+\begin{thebibliography}{}
+
+\bibitem[Azar, 2009]{pablotese}
+Azar, P. (2009).
+\newblock {\em Sentiment Analysis Financial News}.
+\newblock PhD thesis, Hardvard College.
+
+\bibitem[Bollen et~al., 2010]{jbhx}
+Bollen, J., Mao, H., and Zeng, X.-J. (2010).
+\newblock Twitter mood predicts the stock market.
+\newblock {\em jcs}, 1(2):1--8.
+
+\bibitem[Devitt and Ahmad, a]{lexiconAA}
+Devitt, A. and Ahmad, K.
+\newblock A lexicon for polarity: Affective content in financial news text.
+\newblock {\em Proceedings of Language For Special Purposes}.
+
+\bibitem[Devitt and Ahmad, b]{cohesion}
+Devitt, A. and Ahmad, K.
+\newblock Sentiment polarity identification in financial news: A cohesion-based
+  approach.
+\newblock {\em 45th Annual Meeting of the Association for Computational
+  Linguistics}.
+
+\bibitem[Pang et~al., 2002]{thumbsup}
+Pang, B., Lee, L., and Vaithyanathan, S. (2002).
+\newblock Thumbs up?: sentiment classification using machine learning
+  techniques.
+\newblock In {\em EMNLP '02 Proceedings of the ACL-02 conference on Empirical
+  methods in natural language processing}.
+
+\bibitem[Schumaker and Chen, ]{azsystem}
+Schumaker, R.~P. and Chen, H.
+\newblock Textual analysis of stock market prediction using breaking financial
+  news: The azfin text system.
+\newblock {\em ACM Transactions on Information Systems (TOIS)}.
+
+\bibitem[Wilson et~al., 2005]{contextualpolarity}
+Wilson, T., Wiebe, J., and Hoffmann, P. (2005).
+\newblock Recognizing contextual polarity in phrase-level sentiment analysis.
+\newblock In {\em HLT '05 Proceedings of the conference on Human Language
+  Technology and Empirical Methods in Natural Language Processing}.
+
+\bibitem[Yi et~al., ]{SA}
+Yi, J., Nasukawa, T., Bunescu, R., and Niblack, W.
+\newblock Sentiment analyzer: extracting sentiments about a given topic using
+  natural language processing techniques.
+\newblock In {\em Data Mining, 2003. ICDM 2003. Third IEEE International
+  Conference on}.
+
+\end{thebibliography}

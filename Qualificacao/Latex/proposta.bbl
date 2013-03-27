@@ -1,0 +1,56 @@
+\begin{thebibliography}{}
+
+\bibitem[Azar, 2009]{pablotese}
+Azar, P. (2009).
+\newblock {\em Sentiment Analysis Financial News}.
+\newblock PhD thesis, Hardvard College.
+
+\bibitem[e~Huina Mao~e Xiao-Jun~Zeng, 2010]{jbhx}
+e~Huina Mao~e Xiao-Jun~Zeng, J.~B. (2010).
+\newblock Twitter mood predicts the stock market.
+\newblock 1(2):1--8.
+
+\bibitem[e~Janyce Wiebe~e Paul~Hoffmann, 2005]{contextualpolarity}
+e~Janyce Wiebe~e Paul~Hoffmann, T.~W. (2005).
+\newblock Recognizing contextual polarity in phrase-level sentiment analysis.
+\newblock In {\em HLT '05 Proceedings of the conference on Human Language
+  Technology and Empirical Methods in Natural Language Processing}.
+
+\bibitem[e~Khurshid~Ahmad, 2007a]{lexiconAA}
+e~Khurshid~Ahmad, A.~D. (2007a).
+\newblock A lexicon for polarity: Affective content in financial news text.
+\newblock {\em Proceedings of Language For Special Purposes}.
+
+\bibitem[e~Khurshid~Ahmad, 2007b]{cohesion}
+e~Khurshid~Ahmad, A.~D. (2007b).
+\newblock Sentiment polarity identification in financial news: A cohesion-based
+  approach.
+\newblock {\em 45th Annual Meeting of the Association for Computational
+  Linguistics}.
+
+\bibitem[e~Lillian Lee~e Shivakumar~Vaithyanathan, 2002]{thumbsup}
+e~Lillian Lee~e Shivakumar~Vaithyanathan, B.~P. (2002).
+\newblock Thumbs up?: sentiment classification using machine learning
+  techniques.
+\newblock In {\em EMNLP '02 Proceedings of the ACL-02 conference on Empirical
+  methods in natural language processing}.
+
+\bibitem[Schumaker, 2009]{azsystem}
+Schumaker, Robert P. e~Chen, H. (2009).
+\newblock Textual analysis of stock market prediction using breaking financial
+  news: The azfin text system.
+\newblock {\em ACM Trans. Inf. Syst.}, 27:12:1--12:19.
+
+\bibitem[Witten, 2011]{Witten}
+Witten, I. H. e~Frank, E. e. H. M.~A. (2011).
+\newblock {\em Data mining : practical machine learning tools e techniques}.
+\newblock Morgan Kaufmann, San Francisco, CA, USA, 3rd edition.
+
+\bibitem[Yi, 2003]{SA}
+Yi, J. e~Nasukawa, T. e. B. R. e. N.~W. (2003).
+\newblock Sentiment analyzer: extracting sentiments about a given topic using
+  natural language processing techniques.
+\newblock In {\em Data Mining, 2003. ICDM 2003. Third IEEE International
+  Conference on}, pages 427 -- 434.
+
+\end{thebibliography}
