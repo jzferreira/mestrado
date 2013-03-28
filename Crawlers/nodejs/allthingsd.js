@@ -10,11 +10,22 @@ var allthingsd = (function (params) {
 	var _pageNumber = 1;
 	var _query = '';
 	var _totalPages = 1;
+	var _fileName = '';
 
 	function QueryException(message) {
 		this.message = message;
 		this.name = "QueryException";
 	}
+
+	var getFilename = function() {
+		return _fileName;
+	};
+
+	var setFilename = function (query) {
+		if (query && typeof query == 'string') {
+			_fileName = 'allthingsd_'.concat(query.replace(/\+/g, '_')).concat('.txt');
+		}
+	};
 
 	var getPageNumber = function () {
 		return _pageNumber;
@@ -52,15 +63,17 @@ var allthingsd = (function (params) {
 			args.forEach( function (val, index, array) {
 				if (val === '-query') {
 					if (array[index + 1] === undefined) {
-						throw new QueryException('Define a query de busca');
+						throw new QueryException('Define uma query de busca');
 					} else {
 						_query = array[index + 1];
+						//define nome do arquivo com as entidades buscadas
+						setFilename(_query);
 						found = true;
 					}
 				}
 			});
 			if (!found) {
-				throw new QueryException('Define a query de busca');
+				throw new QueryException('Define uma query de busca');
 			}
 		}
 	};
@@ -78,17 +91,24 @@ var allthingsd = (function (params) {
 
 	var wrapLinks = function ($) {
 		console.log('Wrapping links...');
-		var linksNode = $('.post-link');
-		var postLinks = [];
-		for (var i = 0; i < linksNode.length; i++) {
-			console.log(linksNode[i].getAttribute('href'));
+		var linksNode = $('.post-link'),
+		postLinks = [],
+		i = 0,
+		fileName = getFilename();
+		for (i; i < linksNode.length; i++) {
+			postLinks.push(linksNode[i].attribs.href);
 		}
+		writer.arrayURL({
+			content: postLinks,
+			file: fileName
+		});
 	};
 
 	var fireRequest = function () {
 		var pullrequest = setInterval( function () {
 			var urlRequest = getURL();
-			console.log(urlRequest);
+			console.log('Endereco da Pagina N. [' + getPageNumber().toString() + ']: '  + urlRequest);
+			console.log('Abrindo conexao...');
 			request({
 				url: urlRequest,
 				headers: {
@@ -98,6 +118,7 @@ var allthingsd = (function (params) {
 				if (error) {
 					console.log(error);
 				} else {
+					console.log('Lendo documento...');
 					$ = cheerio.load(body);
 					if (getPageNumber() === 1) {
 						if (getPageNumber() === 1) {
