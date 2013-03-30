@@ -17,7 +17,7 @@ uniqueURLS = {}
 allURLS = []
 
 #site
-site = 'reuters'
+site = 'allthingsd'
 
 #arquivo output
 fileOutput = 'paginas.txt'
@@ -28,18 +28,9 @@ def addNewKey(url):
 	else:
 		uniqueURLS[url] = 1
 
-def isNotVideo(url):
-	return url.find('http://www.bloomberg.com/video')
-
 def check():
 	#path txt com a url das paginas das quatro companias
-	#urlsTXT = ['bloomberg/bloombergApple.txt', 'bloomberg/bloombergMicrosoft.txt', 'bloomberg/bloombergNokia.txt', 'bloomberg/bloombergSamsung.txt']
-	urlsTXT = ['reuters/reuters_apple.txt','reuters/reuters_google.txt','reuters/reuters_microsoft.txt','reuters/reuters_nokia.txt','reuters/reuters_samsung.txt']
-
-	#appleTXT = 'bloomberg/bloombergApple.txt'
-	#microsoftTXT = 'bloomberg/bloombergMicrosoft.txt'
-	#nokiaTXT = 'bloomberg/bloombergNokia.txt'
-	#samsungTXT = 'bloomberg/bloombergSamsung.txt'
+	urlsTXT = ['allthingsd/allthingsd_Apple.txt', 'allthingsd/allthingsd_Google.txt', 'allthingsd/allthingsd_Microsoft.txt', 'allthingsd/allthingsd_Nokia.txt', 'allthingsd/allthingsd_Nokia_Google_Microsoft_Apple_Samsung.txt', 'allthingsd/allthingsd_Samsung.txt']
 
 	#ler cada arquivo
 
@@ -48,10 +39,9 @@ def check():
 		fs = open(url, 'r')
 		txt = fs.readline()
 		while (txt != ""):
-			if (isNotVideo(txt) < 0):
-				cleanURL = txt.replace('\n', '').strip(' ')
-				allURLS.append(cleanURL)
-				addNewKey(cleanURL)
+			cleanURL = txt.replace('\n', '').strip(' ')
+			allURLS.append(cleanURL)
+			addNewKey(cleanURL)
 			txt = fs.readline()
 
 	showResult()
